@@ -12,20 +12,11 @@ ul {
 a {
   text-decoration: none;
 }
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 p {
@@ -54,25 +45,31 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.Contacts {
+.contacts {
   font-style: normal;
 }
-.Contacts-link {
+.contacts-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .nav-link:hover,
 .nav-link:focus,
-.Contacts-link:hover,
-.Contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 .page-footer {
   background-color: #2e2f42;
+}
+.p-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 .footer-logo .logo-part-footer {
   color: #f4f4fd;
@@ -83,10 +80,10 @@ p {
 .header-logo {
   margin-right: 76px;
 }
-.section1 {
+.section-one {
   background-color: #2e2f42;
 }
-.header1 {
+.header-one {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -94,7 +91,7 @@ p {
   text-align: center;
   color: #fff;
 }
-.button-section1 {
+.button-section-one {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
@@ -102,14 +99,16 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
-.button-section1:hover .button-section1:focus {
+.button-section-one:hover,
+.button-section-one:focus {
   background-color: #404bbf;
 }
-.section3 {
+.section-three {
   background-color: #f4f4fd;
 }
-.header2-section3 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -117,7 +116,8 @@ p {
   text-align: center;
   color: #2e2f42;
 }
-.list-item-sec3 {
+
+.list-item-sec-three {
   background-color: #fff;
 }
 .name {
